@@ -72,6 +72,7 @@ Publish the website in the given URL.
         <h1>Area of Cylinder</h1>
         <form method="POST">
         {% csrf_token %}
+
         <div class="formelt">
         length : <input type="text" name="length" value="{{l}}"></input>(in m)<br/>
         </div>
@@ -136,7 +137,7 @@ Publish the website in the given URL.
     
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2024-04-17 171919.png>)
+![Screenshot 2024-04-17 171919](https://github.com/KiranbalajiH/MathServer/assets/149135475/2a021395-9ee9-4569-bc99-619e0e021ccc)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
